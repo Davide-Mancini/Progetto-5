@@ -28,27 +28,33 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="card mb-3" style="max-width: 540px">
+    <main class="d-flex justify-content-center">
+      <div class="card mb-3 border-0" style="max-width: 540px">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col col-12 text-center text-md-start"> <h1>Edit Profile</h1></div>
+          <hr/>
+          <div class="col col-12 col-md-4 p-2 text-center text-md-start">
             <img
               src="./Netflix-assets/assets/avatar.png"
               class="img-fluid rounded-start"
               alt="..."
             />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
+          <div class="col-md-8 p-2 text-center text-md-start">
+            <!-- <div class="card-body">
               <div class="d-grid gap-2">
                 <button class="btn btn-secondary" type="button">
                   Strive Student
                 </button>
-              </div>
+              </div> -->
+              <div class="input-group mb-3">
+  
+  <input type="text" class="form-control bg-secondary rounded-0" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Strive student">
+</div>
               <h6 class="card-text mb-1 mt-3">Language:</h6>
               <div class="dropdown m-0">
                 <button
-                  class="btn btn-outline-secondary dropdown-toggle"
+                  class="btn btn-outline-secondary dropdown-toggle rounded-0 px-3 py-0"
                   type="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -67,7 +73,7 @@
               </div>
               <hr />
               <h6 class="card-text">Maturity Settings</h6>
-              <button type="button" class="btn btn-secondary mb-3">
+              <button type="button" class="btn btn-secondary mb-3 rounded-0">
                 ALL MATURITY RATINGS
               </button>
               <p class="mb-1">
@@ -76,7 +82,9 @@
                   profile.</small
                 >
               </p>
-              <button type="button" class="btn btn-secondary">EDIT</button>
+              <button type="button" class="btn btn-outline-secondary rounded-0 px-4 py-1">
+                EDIT
+              </button>
               <hr />
               <h6>Autoplay controls</h6>
               <div class="form-check">
@@ -105,6 +113,39 @@
             </div>
           </div>
           <hr />
+          <div class="row">
+          <div class="col col-12 col-md-4">
+            <p class="d-inline-flex gap-1 w-100 justify-content-around">
+              <a
+                href="#"
+                class="btn active btn-outline-light px-5 rounded-0"
+                role="button"
+                data-bs-toggle="button"
+                >SAVE</a
+              > </p></div>
+               <div class="col col-12 col-md-4">
+                 <p class="d-inline-flex gap-1 w-100 justify-content-around">
+              <a
+                href="#"
+                class="btn btn-outline-danger px-5 rounded-0 "
+                role="button"
+                data-bs-toggle="button"
+                aria-pressed="true"
+                >CANCEL</a
+              ></p></div>
+              <div class="col col-12 col-md-4">
+                 <p class="d-inline-flex gap-1 w-100 justify-content-around">
+              <a
+                href="#"
+                class="btn btn-outline-danger px-5 rounded-0"
+                role="button"
+                data-bs-toggle="button"
+                aria-pressed="true"
+                >DELETE PROFILE</a
+              ></p></div>
+            </p>
+          </div>
+          </div>
         </div>
       </div>
     </main>
