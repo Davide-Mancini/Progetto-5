@@ -15,11 +15,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
   </head>
+  <link rel="stylesheet" href="./style.css">
   <body data-bs-theme="dark">
     <header>
       <!-- NAVBAR------------------------------------------------------------------- -->
-      <nav class="navbar navbar-expand-md mb-5 " data-bs-theme="dark">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-md sticky-top mb-5  bg-dark" data-bs-theme="dark" >
+        <div class="container-fluid ">
           <img
             src="./Netflix-assets/assets/netflix_logo.png"
             alt=""
@@ -39,7 +40,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./HomePage.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Tv Shows</a>
@@ -76,13 +77,13 @@
                   />
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item active" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item active" href="#">Parental Control</a></li>
+                  <li><a class="dropdown-item" href="#">Peppa Pig</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Masha e Orso</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
                 </ul>
               </div>
               <div class="dropdown dropstart">
@@ -100,12 +101,12 @@
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item active" href="./Profile.html">Profile</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Abbonamento</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Fatturazione</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  <li><a class="dropdown-item" href="./Settings.html">Settings</a></li>
                 </ul>
               </div>
             </form>
@@ -118,7 +119,7 @@
       <section class="d-flex align-middle justify-content-start ms-3">
         <div class="container m-0 ">
           <div
-            class="row text-center text-sm-center text-md-start text-lg-start vw-100 align-items-center mb-5"
+            class="row text-center text-sm-center text-md-start text-lg-start vw-100 align-items-center mb-5 "
           >
             <div class="col col-12 col-md-2">
               <h1>TV Shows</h1>
@@ -348,42 +349,42 @@
         <div class="container-fluide">
           <div class="row mb-5 row-gap-2 text-center">
             <h2 class="text-center text-md-start ms-2">Trending Now</h2>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2" id="film">
               <img
                 src="./Netflix-assets/assets/media/media0.webp"
                 alt=""
-                class="mw-100"
+                class="mw-100 "
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2 " id="film">
               <img
                 src="./Netflix-assets/assets/media/media1.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media10.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media11.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media12.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media13.jpg"
                 alt=""
@@ -393,42 +394,42 @@
           </div>
           <div class="row mb-5 row-gap-2 text-center">
             <h2 class="text-center text-md-start ms-2">Watch It Again</h2>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2" id="film">
               <img
                 src="./Netflix-assets/assets/media/media14.webp"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media15.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media16.webp"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media17.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media18.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media19.webp"
                 alt=""
@@ -438,42 +439,42 @@
           </div>
           <div class="row mb-5 row-gap-2 text-center">
             <h2 class="text-center text-md-start ms-2">New Realeses</h2>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media20.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media21.webp"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media22.webp"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media23.webp"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media24.jpg"
                 alt=""
                 class="mw-100"
               />
             </div>
-            <div class="col col-12 col-sm-6 col-md-4 col-lg-2">
+            <div class="col col-12 col-sm-6 col-md-4 col-lg-2"id="film">
               <img
                 src="./Netflix-assets/assets/media/media25.webp"
                 alt=""

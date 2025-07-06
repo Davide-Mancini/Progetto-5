@@ -1,0 +1,14 @@
+#film:hover {
+  transform: scale(1.2);
+}
+#film {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+nav img:hover {
+  transform: scale(1.2);
+}
+nav img {
+  transition: all 0.5s;
+  cursor: pointer;
+}
